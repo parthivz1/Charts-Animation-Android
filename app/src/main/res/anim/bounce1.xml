@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    Top to bottom-->
+    <scale
+        android:duration="800"
+        android:fromXScale="1.0"
+        android:fromYScale="0.0"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+
+<!--Waves-->
+    <translate
+        android:duration="500"
+        android:fromYDelta="0"
+        android:toYDelta="-100"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
+
+    <translate
+        android:duration="500"
+        android:startOffset="500"
+        android:fromYDelta="-100"
+        android:toYDelta="100"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
+
+
+<!--    &lt;!&ndash;Bounce&ndash;&gt;-->
+<!--    <scale-->
+<!--        android:duration="800"-->
+<!--        android:fromXScale="1.0"-->
+<!--        android:fromYScale="0.0"-->
+<!--        android:interpolator="@android:anim/bounce_interpolator"-->
+<!--        android:pivotX="50%"-->
+<!--        android:pivotY="100%"-->
+<!--        android:toXScale="1.0"-->
+<!--        android:toYScale="1.0" />-->
+<!--    <scale-->
+<!--        android:duration="800"-->
+<!--        android:fromXScale="1.0"-->
+<!--        android:fromYScale="1.0"-->
+<!--        android:interpolator="@android:anim/bounce_interpolator"-->
+<!--        android:pivotX="50%"-->
+<!--        android:pivotY="100%"-->
+<!--        android:toXScale="1.0"-->
+<!--        android:toYScale="0.5" />-->
+<!--    <scale-->
+<!--        android:duration="800"-->
+<!--        android:fromXScale="1.0"-->
+<!--        android:fromYScale="0.5"-->
+<!--        android:interpolator="@android:anim/bounce_interpolator"-->
+<!--        android:pivotX="50%"-->
+<!--        android:pivotY="100%"-->
+<!--        android:toXScale="1.0"-->
+<!--        android:toYScale="2.0" />-->
+
+<!--&lt;!&ndash;Zoom In&ndash;&gt;-->
+<!--    <scale-->
+<!--        android:pivotX="50%"-->
+<!--        android:pivotY="50%"-->
+<!--        android:fromXScale="0.5"-->
+<!--        android:toXScale="1.0"-->
+<!--        android:fromYScale="0.5"-->
+<!--        android:toYScale="1.0"-->
+<!--        android:duration="800"/>-->
+
+<!--    <scale-->
+<!--        android:duration="1000"-->
+<!--        android:fromXScale="1.0"-->
+<!--        android:fromYScale="0.0"-->
+<!--        android:toXScale="1.0"-->
+<!--        android:toYScale="1.0" />-->
+
+<!--    &lt;!&ndash; Translate animation for horizontal movement &ndash;&gt;-->
+<!--    <translate-->
+<!--        android:fromXDelta="0"-->
+<!--        android:toXDelta="50%p"-->
+<!--        android:duration="1000"-->
+<!--        android:repeatCount="1"-->
+<!--        android:repeatMode="reverse" />-->
+
+<!--    &lt;!&ndash; Translate animation for vertical movement &ndash;&gt;-->
+<!--    <translate-->
+<!--        android:fromYDelta="0"-->
+<!--        android:toYDelta="-25dp"-->
+<!--        android:duration="500"-->
+<!--        android:repeatCount="1"-->
+<!--        android:repeatMode="reverse" />-->
+
+</set>
