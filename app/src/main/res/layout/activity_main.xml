@@ -48,26 +48,4 @@
         android:layout_centerHorizontal="true"
         android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/animation_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="Animation"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/json_chart_btn"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/any_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="Other"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/animation_btn"
-        android:textSize="20sp" />
-
 </RelativeLayout>

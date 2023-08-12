@@ -26,21 +26,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".WaveAnimationActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity> <!-- android:supportsRtl="true" -->
+        <!-- android:supportsRtl="true" -->
         <!-- android:resizeableActivity="false" -->
-        <activity
-            android:name=".AnimationActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
         <activity
             android:name=".JsonChartsActivity"
             android:exported="false">

@@ -23,7 +23,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    Button allChartsBtn, jsonChartsBtn, animationBtn, otherBtn, timeCounterBtn, touchOrClickBtn;
+    Button allChartsBtn, jsonChartsBtn, timeCounterBtn, touchOrClickBtn;
 
     static ArrayList<HikeOuter> OuterArl;
     ArrayList<HikeInner> InnerArl;
@@ -49,22 +49,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, JsonChartsActivity.class));
-            }
-        });
-
-        animationBtn = findViewById(R.id.animation_btn);
-        animationBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
-            }
-        });
-
-        otherBtn = findViewById(R.id.any_btn);
-        otherBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, WaveAnimationActivity.class));
             }
         });
 
