@@ -8,16 +8,6 @@
     android:background="@drawable/shape">
 
     <Button
-        android:id="@+id/touch_or_click_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/time_counter_btn"
-        android:padding="10dp"
-        android:text="Touch Or Click"
-        android:textSize="20sp" />
-
-    <Button
         android:id="@+id/time_counter_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -13,13 +13,6 @@
         android:theme="@style/Theme.ChartsDemo"
         tools:targetApi="31">
         <activity
-            android:name=".TouchOrClickActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Timer.TimeCounterActivity"
             android:exported="false">
             <meta-data
